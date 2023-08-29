@@ -11,3 +11,4 @@ Functionalities:
 - Register an Account
 - Login into Account
 - See total Amount for goods in cart
+- View Individual game description pages include in-game screenshots

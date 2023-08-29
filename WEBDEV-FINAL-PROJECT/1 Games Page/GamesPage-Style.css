@@ -1,0 +1,92 @@
+﻿* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+/*---------BODY--------*/
+.body {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-1 img:hover {
+    box-shadow: 0 0 10px;
+}
+
+.small-container {
+    border-block-end: ridge;
+}
+.title{
+    font-family:'Franklin Gothic Book';
+    text-decoration: underline;
+}
+
+
+    .explore-btn:hover {
+        background: grey;
+    }
+
+
+.hr-line{
+    border: 10px solid rgb(0, 0, 0);
+}
+
+.btnAdd{
+    background-color: #000000;
+    border-color: white;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btnAdd:hover{
+    background-color: #ffffff;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .btnSave{
+    background-color: #000000;
+    border-color: white;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btnSave:hover{
+
+    background-color: #ffffff;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+
+

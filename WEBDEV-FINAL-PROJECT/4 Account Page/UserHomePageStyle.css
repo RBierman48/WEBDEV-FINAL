@@ -1,0 +1,189 @@
+﻿* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*---------BODY--------*/
+.body {
+    padding:10px 0px 30px 30px;
+}
+
+.form-container {
+    background: black;
+    color: white;
+    width: 600px;
+    height: 400px;
+    padding: 100px 100px 100px 100px;
+    margin:auto;
+    box-shadow: 0 0 20px 0px;
+    overflow:hidden;
+}
+.form-container span{
+    font-size:large;
+    font-weight:bold;
+    margin: auto;
+    padding: 0 0 40px;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    display:inline-block
+}
+.form-btn{
+    display:inline-block;
+}
+.form-container form{
+    margin:auto;
+    max-width: 450px;
+    padding: 10px 20px;
+    top: 100px;
+    position:center;
+    transition:transform 1s;
+}
+form input {
+    width:90%;
+    height:50px;
+    margin: 10px;
+    padding: 0px 5px;
+    border: 1px solid grey;
+
+}
+form .btn{
+    width:20%;
+    border:none;
+    cursor:pointer;
+}
+#loginform{
+   margin-left:-500px;
+}
+#regform{
+    margin-left: 0px;
+    margin-top:-210px;
+}
+#indicator{
+    width:100px;
+    border:none;
+    background:white;
+    height: 3px;
+    margin-top:-30px;
+    margin-left:-10px;
+    transform:translateX(100px);
+    transition: transform 1s;
+}
+
+.Regbtn{
+    background-color: #ffffff;
+    border:black;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .Logbtn{
+    background-color: #fffefe;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .Logbtn:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-color: white;
+  }
+
+  .Regbtn:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-color: white;
+  }
+
+  .user-directory{
+    font-family: Tahoma;
+    background-color: #ffffff;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    padding: 10px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .user-directory:hover{
+    background-color: #000000;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 247, 247);
+
+  }
+
+
+
+
+/*--------FOOTER--------*/
+.footer {
+    background: #000000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+#foot-link {
+    color: #8a8a8a;
+}
+
+    #foot-link.hover {
+        color: #000000;
+    }
+
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, footer-col-2, footer-col-3, footer-col-4 {
+    min-width: 400px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+    .footer-col-1 img {
+        width: 180px;
+        height: 100px;
+        margin-bottom: 20px;
+        .footer-col-2
+
+{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-col-3 {
+    margin-right: 5px;
+}
+    }
